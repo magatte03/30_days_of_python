@@ -1,9 +1,9 @@
+while True:
+    try:
+        x = int(input("What's x?"))
+    except ValueError:
+        print("x is not an integer")
+    else:
+        break
 
-def print_hi(name):
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(f"x is {x}")
